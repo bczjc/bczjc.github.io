@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on bczjc</title>
-    <link>http://example.org/series/</link>
+    <link>https://bczjc.github.io/series/</link>
     <description>Recent content in Series on bczjc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hackerrank</title>
-      <link>http://example.org/series/hackerrank/</link>
+      <link>https://bczjc.github.io/series/hackerrank/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/series/hackerrank/</guid>
+      <guid>https://bczjc.github.io/series/hackerrank/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes Guide</title>
-      <link>http://example.org/series/themes-guide/</link>
+      <link>https://bczjc.github.io/series/themes-guide/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/series/themes-guide/</guid>
+      <guid>https://bczjc.github.io/series/themes-guide/</guid>
       <description></description>
     </item>
     

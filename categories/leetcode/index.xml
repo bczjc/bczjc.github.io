@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leetcode on bczjc</title>
-    <link>http://example.org/categories/leetcode/</link>
+    <link>https://bczjc.github.io/categories/leetcode/</link>
     <description>Recent content in Leetcode on bczjc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/categories/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Template</title>
-      <link>http://example.org/post/template/</link>
+      <link>https://bczjc.github.io/post/template/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/template/</guid>
+      <guid>https://bczjc.github.io/post/template/</guid>
       <description>範本</description>
     </item>
     
     <item>
       <title>Template</title>
-      <link>http://example.org/samples/template/</link>
+      <link>https://bczjc.github.io/samples/template/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/samples/template/</guid>
+      <guid>https://bczjc.github.io/samples/template/</guid>
       <description>範本</description>
     </item>
     
     <item>
       <title>Template</title>
-      <link>http://example.org/template/</link>
+      <link>https://bczjc.github.io/template/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/template/</guid>
+      <guid>https://bczjc.github.io/template/</guid>
       <description>範本</description>
     </item>
     
