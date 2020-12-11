@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on bczjc</title>
@@ -6,22 +6,17 @@
     <description>Recent content in Series on bczjc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bczjc.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Hackerrank</title>
       <link>https://bczjc.github.io/series/hackerrank/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bczjc.github.io/series/hackerrank/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes Guide</title>
-      <link>https://bczjc.github.io/series/themes-guide/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/series/themes-guide/</guid>
       <description></description>
     </item>
     

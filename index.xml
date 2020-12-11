@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soho Theme on bczjc</title>
@@ -6,23 +6,37 @@
     <description>Recent content in Soho Theme on bczjc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bczjc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>Template</title>
-      <link>https://bczjc.github.io/post/template/</link>
-      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)</title>
+      <link>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/template/</guid>
-      <description>範本</description>
+      <guid>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</guid>
+      <description>Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。</description>
     </item>
     
     <item>
-      <title>Template</title>
-      <link>https://bczjc.github.io/samples/template/</link>
+      <title>解決 gitHub Push 多帳號的切換問題</title>
+      <link>https://bczjc.github.io/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bczjc.github.io/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</guid>
+      <description>解決gitHub Push 多帳號的切換問題 在Windows環境使用git bash進行切換帳號(A-&amp;gt;B)時，上傳後卻發現還是一樣的A帳號，適用以下方法。
+[Step1] 開啟電腦裡面的認證管理員(Credential Manager) [Step2] 切換成為Windows認證，找到github.</description>
+    </item>
+    
+    <item>
+      <title>Github.io 設定 Google Domain網域</title>
+      <link>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/samples/template/</guid>
-      <description>範本</description>
+      <guid>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</guid>
+      <description>Github.io 設定 Google Domain網域  至domains.google.com選一個喜歡的網域購買，台灣也可以買 (付款時輸入台灣地址即可)  https://domains.google.com/</description>
     </item>
     
     <item>
@@ -35,15 +49,6 @@
     </item>
     
     <item>
-      <title>Soho Theme</title>
-      <link>https://bczjc.github.io/samples/soho/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/samples/soho/</guid>
-      <description>Soho is a minimalist two-column hugo theme based on Hyde and inspired by the success of Flex.</description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>https://bczjc.github.io/aboutme/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
@@ -51,61 +56,6 @@
       <guid>https://bczjc.github.io/aboutme/</guid>
       <description>Get in contact with us!
 Gmail: P76084520@gs.ncku.edu.tw</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://bczjc.github.io/samples/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/samples/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://bczjc.github.io/samples/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/samples/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://bczjc.github.io/samples/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/samples/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://bczjc.github.io/samples/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/samples/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://bczjc.github.io/samples/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/samples/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://bczjc.github.io/samples/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://bczjc.github.io/samples/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.</description>
     </item>
     
     <item>

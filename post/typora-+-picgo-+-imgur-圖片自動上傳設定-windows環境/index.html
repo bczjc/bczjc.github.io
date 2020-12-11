@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.55.1" />
+
+  <title>Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境) &middot; bczjc</title>
+
+  <meta name="description" content="" />
+
+  
+
+
+<meta itemprop="name" content="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)">
+<meta itemprop="description" content="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。">
+
+
+<meta itemprop="datePublished" content="2020-12-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="276">
+
+
+
+<meta itemprop="keywords" content="blogs," />
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://bczjc.github.io/images/profile.png"/>
+
+<meta name="twitter:title" content="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)"/>
+<meta name="twitter:description" content="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。"/>
+
+
+<meta property="og:title" content="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)" />
+<meta property="og:description" content="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/" />
+
+<meta property="og:image" content="https://bczjc.github.io/images/profile.png" />
+<meta property="article:published_time" content="2020-12-10T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2020-12-10T00:00:00&#43;00:00"/><meta property="og:site_name" content="Muse" />
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://bczjc.github.io/#author",
+      "name":  null ,
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://bczjc.github.io/images/profile.png"
+        
+      },
+      "description": "Record Use"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://bczjc.github.io/#website",
+      "url": "https://bczjc.github.io/",
+      "name": "bczjc",
+      "description": "Record Use",
+      "publisher": {
+        "@id": "https://bczjc.github.io/#author"
+      },
+      "inLanguage": "zh-tw"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://bczjc.github.io/images/profile.png",
+      "caption": "bczjc"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://bczjc.github.io/post/typora-+-picgo-+-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/#webpage",
+      "url": "https://bczjc.github.io/post/typora-+-picgo-+-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/",
+      "name": "Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境)",
+      "isPartOf": {
+        "@id": "https://bczjc.github.io/#website"
+      },
+      "about": {
+         "@id": "https://bczjc.github.io/#author"
+      },
+      "datePublished": "2020-12-10T00:00:00+00:00",
+      "dateModified": "2020-12-10T00:00:00+00:00",
+      "description": "Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。",
+      "inLanguage": "zh-tw",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://bczjc.github.io/post/typora-+-picgo-+-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "https://bczjc.github.io/post/typora-+-picgo-+-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://bczjc.github.io/post/typora-+-picgo-+-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/#webpage"
+      },
+      "headline": "Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境)",
+      "datePublished": "2020-12-10T00:00:00+00:00",
+      "dateModified": "2020-12-10T00:00:00+00:00",
+      "publisher": {
+        "@id": "https://bczjc.github.io/#author"
+      },
+      "keywords": [
+        "blogs"
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "zh-tw",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://bczjc.github.io/post/typora-+-picgo-+-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+
+  
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <img src="/images/profile.png" class="img-circle img-headshot center" alt="Profile Picture">
+        </div>
+        
+      
+
+      <h1>bczjc</h1>
+
+      
+      <p class="lead">Record Use</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="https://bczjc.github.io/">Home</a>
+        </li>
+        <li>
+          <a href="/post/">All Posts</a>
+        </li><li>
+          <a href="/tags/">Tags</a>
+        </li><li>
+          <a href="/leetcode/">LeetCode</a>
+        </li><li>
+          <a href="/hackerrank/">HackerRank</a>
+        </li><li>
+          <a href="/samples/">Samples</a>
+        </li><li>
+          <a href="/aboutme/">About Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="#" rel="me" title="Linkedin" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://github.com/alexandrevicenzi/soho" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1 class="title">Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)</h1>
+  
+
+  <div class="post-date">
+    <time datetime="2020-12-10T00:00:00Z">Dec 10, 2020</time> &middot; 2 min read
+  </div>
+
+  <div>
+  
+
+<h1 id="typora-picgo-imgur-圖片自動上傳設定-windows環境">Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境)</h1>
+
+<p><strong>目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。</strong></p>
+
+<p>以下看中文步驟即可，官網文件供想閱讀原文的人參考。</p>
+
+<p>官方文件: <a href="https://support.typora.io/Upload-Image/#validate-image-uploader">https://support.typora.io/Upload-Image/#validate-image-uploader</a></p>
+
+<h2 id="install">Install</h2>
+
+<blockquote>
+<p>Install prebuilt binary of PicGo-Core (Linux / Windows)
+Typora provide a prebuilt binary of PicGo using nexe to packing the node module into one-file binary. You could just click the “Download” button to install the PicGo binary, and Typora will start downloading and put it under Typora’s support folder directly.</p>
+
+<p>Location of downloaded PicGo-Core binary
+The binary will be put under &ldquo;%AppData/Typora/picgo&rdquo;, &ldquo;&rdquo;%AppData&rdquo; is &ldquo;&rdquo;~/.config&rdquo; on Linux and &ldquo;C:/User/[username]/Roaming/AppData&rdquo; on Windows. You could also try click &ldquo;open theme folder&rdquo; in Typora&rsquo;s preferences panel, then open its parent folder, which will contains the &ldquo;picgo&rdquo; folder.</p>
+</blockquote>
+
+<h3 id="step1-typora-偏好設定-圖片-參照下方圖片設定">[Step1] Typora -&gt; 偏好設定 -&gt; 圖片 -&gt; 參照下方圖片設定</h3>
+
+<p><img src="https://i.imgur.com/T6kpSi4.png" alt="" /></p>
+
+<p>點選<strong>Download or Upgrade</strong>按鈕</p>
+
+<h3 id="step2-下載完的檔案會放在以下路徑">[Step2] 下載完的檔案會放在以下路徑:</h3>
+
+<p>:::info
+C:\Users\你的使用者名稱\AppData\Roaming\Typora\picgo\win64
+:::
+<img src="https://i.imgur.com/lZQmzgN.png" alt="" /></p>
+
+<h2 id="config-picgo-core">Config PicGo-Core</h2>
+
+<h3 id="option-1-edit-the-config-file">Option 1: Edit the config file</h3>
+
+<p>Please edit config.json at following location</p>
+
+<blockquote>
+<p>Linux / macOS → ~/.picgo/config.json.
+Windows → C:\Users[your user name].picgo\config.json.
+For details, please refer to this document (Chinese Only).</p>
+</blockquote>
+
+<h3 id="option-2-config-via-cli">Option 2: Config via CLI</h3>
+
+<blockquote>
+<p>If you installed pico-core via node, please input picgo -h to show help of picgo, and do configuration follow its help.</p>
+
+<p>If you used the prebuilt binary of PicGo-Core installed from Typora’s preferences panel, please find the binary from the folder (see instructions here), then open the folder in terminal, and do configurations via (./picgo -h).</p>
+
+<p>You can find its CLI usage in <a href="https://github.com/PicGo/PicGo-Core#use-in-cli">https://github.com/PicGo/PicGo-Core#use-in-cli</a>.</p>
+
+<p>Use Plugins
+You can use the cli interface to install plugins of PicGo-Core.</p>
+</blockquote>
+
+<p><br></p>
+
+<h3 id="step3-編輯設定檔">[Step3] 編輯設定檔</h3>
+
+<p>參考Picgo官方文件
+<a href="https://picgo.github.io/PicGo-Core-Doc/zh/guide/config.html#%E9%BB%98%E8%AE%A4%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">https://picgo.github.io/PicGo-Core-Doc/zh/guide/config.html#%E9%BB%98%E8%AE%A4%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6</a></p>
+
+<p>設定檔的位置:
+:::info
+ C:\Users\Liao.picgo
+:::
+<img src="https://i.imgur.com/cNXAxlL.png" alt="" /></p>
+
+<ol>
+<li><p>在剛下載完的picgo.exe目錄底下打開cmd，輸入</p>
+
+<pre><code class="language-bash">picgo use
+</code></pre>
+
+<p><img src="https://i.imgur.com/zYPmQkj.png" alt="" /></p>
+
+<p><img src="https://i.imgur.com/NTsADUN.png" alt="" /></p>
+
+<p>會自動在剛剛的設定檔中生成下方內容，當然也可以參考文件使用手動修改的方式。
+詳細設定內容可<a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html#imgur%E5%9B%BE%E5%BA%8A">參考文件</a></p>
+
+<pre><code class="language-json">{
+  &quot;picBed&quot;: {
+    &quot;current&quot;: &quot;imgur&quot;,
+    &quot;uploader&quot;: &quot;imgur&quot;,
+    &quot;imgur&quot;: {
+        &quot;clientId&quot;: &quot;58c96c7146aa063&quot;,
+    }
+
+  },
+  &quot;picgoPlugins&quot;: {}
+}
+</code></pre></li>
+
+<li><p>上面自行輸入imgur帳號所申請的clientId</p>
+
+<p><img src="https://i.imgur.com/v5JhmJV.png" alt="" /></p></li>
+
+<li><p>設定完存檔，按按看<strong>Test Uploader</strong>按鈕</p>
+
+<p><img src="https://i.imgur.com/T6kpSi4.png" alt="" /></p>
+
+<p><img src="https://i.imgur.com/BzUP3KE.png" alt="" /></p>
+
+<p>恭喜! 成功!</p></li>
+
+<li><p>在編輯文章貼圖的時候，選擇Upload Image</p></li>
+</ol>
+
+<p><img src="https://i.imgur.com/jAsxjFq.png" alt="" /></p>
+
+<p>就會自動上傳，變成imgur的網址了！(下圖網址處)</p>
+
+<p><img src="https://i.imgur.com/jB46ipQ.png" alt="" /></p>
+
+<p>大功告成。</p>
+
+  </div>
+
+  <div>
+  <ul class="tags">
+  <li>
+    <a href="https://bczjc.github.io/tags/blogs/" class="tag-link">blogs</a>
+  </li>
+  </ul>
+</div>
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/"
+     data-text="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/"
+     data-text="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/"
+     data-text="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/"
+     data-text="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/"
+     data-text="Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)"><i class="fab fa-pinterest"></i></a>
+</div>
+
+</div>
+
+
+  </main>
+
+  <footer>
+  <div>
+    <p>
+      &copy; bczjc 2020
+
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+      &middot; Build with <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://themes.gohugo.io/soho/" target="_blank">Soho</a> theme
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
+
+  
+
+  
+</body>
+</html>
