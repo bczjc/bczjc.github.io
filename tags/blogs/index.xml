@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogs on Clarity</title>
-    <link>https://bczjc.github.io/tags/blogs/</link>
+    <link>https://www.liaojx.com/tags/blogs/</link>
     <description>Recent content in blogs on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.liaojx.com/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)</title>
-      <link>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</link>
+      <link>https://www.liaojx.com/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</guid>
+      <guid>https://www.liaojx.com/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</guid>
       <description>Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。
 以下看中文步驟即可，官網文件供想閱讀原文的人參考。
 官方文件: https://support.typora.io/Upload-Image/#validate-image-uploader
@@ -22,10 +22,10 @@ Install  Install prebuilt binary of PicGo-Core (Linux / Windows) Typora provide 
     
     <item>
       <title>Github.io 設定 Google Domain網域</title>
-      <link>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</link>
+      <link>https://www.liaojx.com/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</guid>
+      <guid>https://www.liaojx.com/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</guid>
       <description>Github.io 設定 Google Domain網域   至domains.google.com選一個喜歡的網域購買，台灣也可以買 (付款時輸入台灣地址即可)
 https://domains.google.com/
   github.io -&amp;gt; setting -&amp;gt; Custom domain輸入買好的網域

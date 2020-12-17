@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clarity</title>
-    <link>https://bczjc.github.io/</link>
+    <link>https://www.liaojx.com/</link>
     <description>Recent content on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.liaojx.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)</title>
-      <link>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</link>
+      <link>https://www.liaojx.com/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</guid>
+      <guid>https://www.liaojx.com/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</guid>
       <description>Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。
 以下看中文步驟即可，官網文件供想閱讀原文的人參考。
 官方文件: https://support.typora.io/Upload-Image/#validate-image-uploader
@@ -22,20 +22,20 @@ Install  Install prebuilt binary of PicGo-Core (Linux / Windows) Typora provide 
     
     <item>
       <title>解決 gitHub Push 多帳號的切換問題</title>
-      <link>https://bczjc.github.io/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</link>
+      <link>https://www.liaojx.com/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</guid>
+      <guid>https://www.liaojx.com/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</guid>
       <description>解決gitHub Push 多帳號的切換問題 在Windows環境使用git bash進行切換帳號(A-&amp;gt;B)時，上傳後卻發現還是一樣的A帳號，適用以下方法。
 [Step1] 開啟電腦裡面的認證管理員(Credential Manager) [Step2] 切換成為Windows認證，找到github.com的認證並移除 [Step3] 未來登入時就會請你再次登入gitHub了。 [Step4] 重新login後，再次push就會是正確的帳號了。 </description>
     </item>
     
     <item>
       <title>Github.io 設定 Google Domain網域</title>
-      <link>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</link>
+      <link>https://www.liaojx.com/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</link>
       <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</guid>
+      <guid>https://www.liaojx.com/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</guid>
       <description>Github.io 設定 Google Domain網域   至domains.google.com選一個喜歡的網域購買，台灣也可以買 (付款時輸入台灣地址即可)
 https://domains.google.com/
   github.io -&amp;gt; setting -&amp;gt; Custom domain輸入買好的網域
@@ -57,64 +57,64 @@ https://domains.google.com/
     
     <item>
       <title></title>
-      <link>https://bczjc.github.io/archives/</link>
+      <link>https://www.liaojx.com/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/archives/</guid>
+      <guid>https://www.liaojx.com/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://bczjc.github.io/post/markdown-syntax/</link>
+      <link>https://www.liaojx.com/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/markdown-syntax/</guid>
+      <guid>https://www.liaojx.com/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>https://bczjc.github.io/post/rich-content/</link>
+      <link>https://www.liaojx.com/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/rich-content/</guid>
+      <guid>https://www.liaojx.com/post/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://bczjc.github.io/post/placeholder-text/</link>
+      <link>https://www.liaojx.com/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/placeholder-text/</guid>
+      <guid>https://www.liaojx.com/post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://bczjc.github.io/post/math-typesetting/</link>
+      <link>https://www.liaojx.com/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/math-typesetting/</guid>
+      <guid>https://www.liaojx.com/post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Emoji Support</title>
-      <link>https://bczjc.github.io/post/emoji-support/</link>
+      <link>https://www.liaojx.com/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/emoji-support/</guid>
+      <guid>https://www.liaojx.com/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://bczjc.github.io/about/</link>
+      <link>https://www.liaojx.com/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/about/</guid>
+      <guid>https://www.liaojx.com/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
@@ -122,10 +122,10 @@ Hugo makes use of a variety of open source projects including:
     
     <item>
       <title></title>
-      <link>https://bczjc.github.io/post/%E6%96%B0%E7%92%B0%E5%A2%83%E7%9A%84hugo%E8%A8%AD%E7%BD%AE%E5%88%87%E6%8F%9Bthemes/</link>
+      <link>https://www.liaojx.com/post/%E6%96%B0%E7%92%B0%E5%A2%83%E7%9A%84hugo%E8%A8%AD%E7%BD%AE%E5%88%87%E6%8F%9Bthemes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/%E6%96%B0%E7%92%B0%E5%A2%83%E7%9A%84hugo%E8%A8%AD%E7%BD%AE%E5%88%87%E6%8F%9Bthemes/</guid>
+      <guid>https://www.liaojx.com/post/%E6%96%B0%E7%92%B0%E5%A2%83%E7%9A%84hugo%E8%A8%AD%E7%BD%AE%E5%88%87%E6%8F%9Bthemes/</guid>
       <description>新環境的Hugo設置&amp;amp;切換Themes 1. 下載最新的Hugo 下載回來的zip解壓縮，將hugo.exe該資料夾的路徑加到環境變數的path中
 在cmd下指令
 1hugo version 確認成功。
@@ -136,19 +136,19 @@ Perfect!</description>
     
     <item>
       <title>HackerRank 程式練習</title>
-      <link>https://bczjc.github.io/hackerrank/</link>
+      <link>https://www.liaojx.com/hackerrank/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/hackerrank/</guid>
+      <guid>https://www.liaojx.com/hackerrank/</guid>
       <description>HacjerRank: https://www.hackerrank.com/</description>
     </item>
     
     <item>
       <title>LeetCode</title>
-      <link>https://bczjc.github.io/leetcode/</link>
+      <link>https://www.liaojx.com/leetcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/leetcode/</guid>
+      <guid>https://www.liaojx.com/leetcode/</guid>
       <description>104. Maximum Depth of Binary Tree</description>
     </item>
     

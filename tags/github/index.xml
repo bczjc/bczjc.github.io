@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on Clarity</title>
-    <link>https://bczjc.github.io/tags/github/</link>
+    <link>https://www.liaojx.com/tags/github/</link>
     <description>Recent content in github on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.liaojx.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解決 gitHub Push 多帳號的切換問題</title>
-      <link>https://bczjc.github.io/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</link>
+      <link>https://www.liaojx.com/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</guid>
+      <guid>https://www.liaojx.com/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</guid>
       <description>解決gitHub Push 多帳號的切換問題 在Windows環境使用git bash進行切換帳號(A-&amp;gt;B)時，上傳後卻發現還是一樣的A帳號，適用以下方法。
 [Step1] 開啟電腦裡面的認證管理員(Credential Manager) [Step2] 切換成為Windows認證，找到github.com的認證並移除 [Step3] 未來登入時就會請你再次登入gitHub了。 [Step4] 重新login後，再次push就會是正確的帳號了。 </description>
     </item>
