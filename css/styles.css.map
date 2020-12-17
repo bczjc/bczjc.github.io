@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "E:/我的雲端硬碟/3. Hugo/hugogo",
+	"sourceRoot": "G:/我的雲端硬碟/3. Hugo/hugogo",
 	"sources": [
 		"themes/clarity/assets/sass/main.sass",
 		"themes/clarity/assets/sass/_variables.sass",
