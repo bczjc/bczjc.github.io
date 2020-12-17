@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on bczjc</title>
+    <title>Series on Clarity</title>
     <link>https://bczjc.github.io/series/</link>
-    <description>Recent content in Series on bczjc</description>
+    <description>Recent content in Series on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hackerrank</title>
-      <link>https://bczjc.github.io/series/hackerrank/</link>
-      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Themes Guide</title>
+      <link>https://bczjc.github.io/series/themes-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/series/hackerrank/</guid>
+      <guid>https://bczjc.github.io/series/themes-guide/</guid>
       <description></description>
     </item>
     

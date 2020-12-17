@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Soho Theme on bczjc</title>
+    <title>Clarity</title>
     <link>https://bczjc.github.io/</link>
-    <description>Recent content in Soho Theme on bczjc</description>
+    <description>Recent content on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bczjc.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Typora &#43; Picgo &#43; Imgur 圖片自動上傳設定 (Windows環境)</title>
@@ -14,7 +14,10 @@
       
       <guid>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</guid>
       <description>Typora + Picgo + Imgur 圖片自動上傳設定 (Windows環境) 目標: 在Typora編輯器中，像HackMD可以自動將貼上的圖片上傳至imgur生成url。
-以下看中文步驟即可，官網文件供想閱讀原文的人參考。</description>
+以下看中文步驟即可，官網文件供想閱讀原文的人參考。
+官方文件: https://support.typora.io/Upload-Image/#validate-image-uploader
+Install  Install prebuilt binary of PicGo-Core (Linux / Windows) Typora provide a prebuilt binary of PicGo using nexe to packing the node module into one-file binary. You could just click the “Download” button to install the PicGo binary, and Typora will start downloading and put it under Typora’s support folder directly.
+  Location of downloaded PicGo-Core binary The binary will be put under &amp;quot;%AppData/Typora/picgo&amp;quot;, &amp;quot;&amp;quot;%AppData&amp;quot; is &amp;quot;&amp;quot;~/.</description>
     </item>
     
     <item>
@@ -35,26 +38,86 @@
       <guid>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</guid>
       <description>Github.io 設定 Google Domain網域   至domains.google.com選一個喜歡的網域購買，台灣也可以買 (付款時輸入台灣地址即可)
 https://domains.google.com/
-  github.</description>
+  github.io -&amp;gt; setting -&amp;gt; Custom domain輸入買好的網域
+   Save後 確認 resposity會出現一個cname檔案。
+  至domain provider中的dns設定(Github.io用下方那4組就對了)
+防止日後過期，詳細步驟可以參考: GitHub Docs
+  185.199.111.153
+  185.199.110.153
+  185.199.109.153
+  185.199.108.153
+  另外新增一組名稱是www、CNAME、指向個人github.io的設定。
+設定好如下:
+  PowerShell中輸入以下指令 (Winodws無法使用dig的替代用法)，確認work。
+1Resolve-DnsName -Name liaojx.com    等候一段時間(十幾分鐘吧)，試試看新購買的網址有沒有成功導向。
+  回到 「GitHub Pages -&amp;gt; Custom domain」將「Enforce HTTPS 」給打勾
+(這樣網址前面才會有https，也增加被google搜尋的排名)
+   Reference:</description>
     </item>
     
     <item>
-      <title>Template</title>
-      <link>https://bczjc.github.io/template/</link>
-      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://bczjc.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/template/</guid>
-      <description>範本</description>
+      <guid>https://bczjc.github.io/archives/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>https://bczjc.github.io/aboutme/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <title>Markdown Syntax Guide</title>
+      <link>https://bczjc.github.io/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bczjc.github.io/aboutme/</guid>
-      <description>Get in contact with us!
-Gmail: P76084520@gs.ncku.edu.tw</description>
+      <guid>https://bczjc.github.io/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://bczjc.github.io/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bczjc.github.io/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://bczjc.github.io/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bczjc.github.io/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://bczjc.github.io/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bczjc.github.io/post/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://bczjc.github.io/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bczjc.github.io/post/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://bczjc.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bczjc.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
     </item>
     
     <item>
@@ -65,8 +128,10 @@ Gmail: P76084520@gs.ncku.edu.tw</description>
       <guid>https://bczjc.github.io/post/%E6%96%B0%E7%92%B0%E5%A2%83%E7%9A%84hugo%E8%A8%AD%E7%BD%AE%E5%88%87%E6%8F%9Bthemes/</guid>
       <description>新環境的Hugo設置&amp;amp;切換Themes 1. 下載最新的Hugo 下載回來的zip解壓縮，將hugo.exe該資料夾的路徑加到環境變數的path中
 在cmd下指令
-hugo version 確認成功。
-2. 新主題放入hugo的themes資料夾中 3.</description>
+1hugo version 確認成功。
+2. 新主題放入hugo的themes資料夾中 3. 更改config.toml中的theme設定 1theme = &amp;#34; 你想要的參數 &amp;#34; 4. Check 更改完成後，執行以下指令
+1hugo server -D 至 http://localhost:1313/ 檢查是否成功
+Perfect!</description>
     </item>
     
     <item>

@@ -1,100 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>https://bczjc.github.io/tags/blogs/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://bczjc.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://bczjc.github.io/tags/github/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://bczjc.github.io/pt/sitemap.xml</loc>
+    
+      <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://bczjc.github.io/post/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/tags/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/post/typora-&#43;-picgo-&#43;-imgur-%E5%9C%96%E7%89%87%E8%87%AA%E5%8B%95%E4%B8%8A%E5%82%B3%E8%A8%AD%E5%AE%9A-windows%E7%92%B0%E5%A2%83/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/post/git-bash-push-%E5%A4%9A%E5%B8%B3%E8%99%9F%E5%88%87%E6%8F%9B%E5%95%8F%E9%A1%8C/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/categories/</loc>
-    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/post/github.io-%E8%A8%AD%E5%AE%9A-google-domain%E7%B6%B2%E5%9F%9F/</loc>
-    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/series/hackerrank/</loc>
-    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/categories/leetcode/</loc>
-    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/tags/samples/</loc>
-    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/series/</loc>
-    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/template/</loc>
-    <lastmod>2020-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/aboutme/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/post/%E6%96%B0%E7%92%B0%E5%A2%83%E7%9A%84hugo%E8%A8%AD%E7%BD%AE%E5%88%87%E6%8F%9Bthemes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/hackerrank/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/tags/leetcode/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bczjc.github.io/leetcode/</loc>
-  </url>
-  
-</urlset>
+</sitemapindex>
