@@ -53,17 +53,32 @@
   </url>
   
   <url>
-    <loc>https://www.liaojx.com/pt/post/markdown-syntax/</loc>
+    <loc>https://www.liaojx.com/pt/draft/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.liaojx.com/post/markdown-syntax/"
+                href="https://www.liaojx.com/draft/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://www.liaojx.com/pt/post/markdown-syntax/"
+                href="https://www.liaojx.com/pt/draft/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.liaojx.com/pt/draft/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.liaojx.com/draft/markdown-syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://www.liaojx.com/pt/draft/markdown-syntax/"
                 />
   </url>
   
@@ -99,21 +114,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://www.liaojx.com/pt/tags/markdown/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.liaojx.com/pt/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.liaojx.com/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.liaojx.com/pt/post/"
                 />
   </url>
   
