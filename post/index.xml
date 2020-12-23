@@ -20,8 +20,7 @@
 ###[補充]
 本地端複製一份虛擬環境 使用
 1conda create -n 複製過來的新名稱 --clone 被複製的名稱 更新電腦的anaconda版本: 執行Anaconda Prompt
- conda update conda conda update anaconda conda update jupyter
- Ref: How to clone Python working environment on another machine?</description>
+1conda update conda 2conda update anaconda 3conda update jupyter Ref: How to clone Python working environment on another machine?</description>
     </item>
     
     <item>
