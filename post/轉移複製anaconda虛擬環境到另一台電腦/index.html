@@ -19,7 +19,7 @@
 <meta property="og:type" content="article">
 <meta name="description" content="在不同電腦間切換(電腦A到電腦B)，但又希望能有相同的執行環境 這時候就會用到這個功能。
 1. 電腦A切換到要轉移的環境 先確認一下虛擬環境名稱
-1conda env list 1conda activate 要複製的環境 如下圖 2. 將該虛擬環境設定匯出到.yml檔 conda env export &gt; 看你 …">
+1conda env list 1conda activate 要複製的環境 如下圖 2. 將該虛擬環境設定匯出到.yml檔 1conda env export &gt; 看 …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="複製Anaconda虛擬環境到另一台電腦" />
@@ -27,7 +27,7 @@
 <meta property="og:title" content="複製Anaconda虛擬環境到另一台電腦" />
 <meta property="og:description" content="在不同電腦間切換(電腦A到電腦B)，但又希望能有相同的執行環境 這時候就會用到這個功能。
 1. 電腦A切換到要轉移的環境 先確認一下虛擬環境名稱
-1conda env list 1conda activate 要複製的環境 如下圖 2. 將該虛擬環境設定匯出到.yml檔 conda env export &gt; 看你 …" />
+1conda env list 1conda activate 要複製的環境 如下圖 2. 將該虛擬環境設定匯出到.yml檔 1conda env export &gt; 看 …" />
 <meta property="og:image" content="https://www.liaojx.com/images/thumbnail.png" />
 <link rel="apple-touch-icon" sizes="180x180" href='https://www.liaojx.com/icons/apple-touch-icon.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='https://www.liaojx.com/icons/favicon-32x32.png'>
@@ -196,18 +196,18 @@
 </code></pre></div><p>如下圖
 <img src="https://i.imgur.com/rMFUgza.png" alt="Image"></p>
 <h3 id="2-將該虛擬環境設定匯出到yml檔">2. 將該虛擬環境設定匯出到.yml檔</h3>
-<p><code>conda env export &gt; 看你想叫什麼.yml</code>
-就會在路徑資料夾中生成了，再把此檔存入新電腦。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>conda env export &gt; 看你想叫什麼.yml 
+</code></pre></div><p>就會在路徑資料夾中生成了，再把此檔存入新電腦。</p>
 <p><img src="https://i.imgur.com/0D7H7fs.png" alt="Image"></p>
 <h3 id="3-在電腦b建置新環境">3. 在電腦B建置新環境</h3>
-<p><code>conda env create -f 看你想叫什麼.yml 新的名稱</code></p>
-<p><img src="https://i.imgur.com/4OkzzQS.png" alt="Image">
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>conda env create -f 看你想叫什麼.yml 新的名稱
+</code></pre></div><p><img src="https://i.imgur.com/4OkzzQS.png" alt="Image">
 完成</p>
-<p>###==[補充]==</p>
+<p>###[補充]</p>
 <h3 id="本地端複製一份虛擬環境">本地端複製一份虛擬環境</h3>
-<p>使用
-<code>conda create -n 複製過來的新名稱 --clone 被複製的名稱</code></p>
-<h3 id="更新電腦的anaconda版本">更新電腦的anaconda版本:</h3>
+<p>使用</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>conda create -n 複製過來的新名稱 --clone 被複製的名稱
+</code></pre></div><h3 id="更新電腦的anaconda版本">更新電腦的anaconda版本:</h3>
 <p>執行Anaconda Prompt</p>
 <blockquote>
 <p>conda update conda

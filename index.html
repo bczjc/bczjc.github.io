@@ -173,12 +173,11 @@
         <div>
           <p class="pale">在不同電腦間切換(電腦A到電腦B)，但又希望能有相同的執行環境 這時候就會用到這個功能。
 1. 電腦A切換到要轉移的環境 先確認一下虛擬環境名稱
-1conda env list 1conda activate 要複製的環境 如下圖 2. 將該虛擬環境設定匯出到.yml檔 conda env export &gt; 看你想叫什麼.yml 就會在路徑資料夾中生成了，再把此檔存入新電腦。
-3. 在電腦B建置新環境 conda env create -f 看你想叫什麼.yml 新的名稱
-完成
-###==[補充]==
-本地端複製一份虛擬環境 使用 conda create -n 複製過來的新名稱 --clone 被複製的名稱
-更新電腦 …</p>
+1conda env list 1conda activate 要複製的環境 如下圖 2. 將該虛擬環境設定匯出到.yml檔 1conda env export &gt; 看你想叫什麼.yml 就會在路徑資料夾中生成了，再把此檔存入新電腦。
+3. 在電腦B建置新環境 1conda env create -f 看你想叫什麼.yml 新的名稱 完成
+###[補充]
+本地端複製一份虛擬環境 使用
+1conda create -n 複製過來的新名稱 --clone 被複製的名稱 更新電腦 …</p>
           <a href="https://www.liaojx.com/post/%E8%BD%89%E7%A7%BB%E8%A4%87%E8%A3%BDanaconda%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E5%88%B0%E5%8F%A6%E4%B8%80%E5%8F%B0%E9%9B%BB%E8%85%A6/" class="excerpt_more button">Read More</a>
         </div>
       </div>
