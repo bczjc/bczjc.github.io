@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>環境建置 on Clarity</title>
+    <link>https://www.liaojx.com/categories/%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE/</link>
+    <description>Recent content in 環境建置 on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Liaojx; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.liaojx.com/categories/%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新環境的Hugo設置&amp;切換Themes</title>
+      <link>https://www.liaojx.com/post/%E8%BD%89%E7%A7%BB%E8%A4%87%E8%A3%BDanaconda%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E5%88%B0%E5%8F%A6%E4%B8%80%E5%8F%B0%E9%9B%BB%E8%85%A6/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.liaojx.com/post/%E8%BD%89%E7%A7%BB%E8%A4%87%E8%A3%BDanaconda%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E5%88%B0%E5%8F%A6%E4%B8%80%E5%8F%B0%E9%9B%BB%E8%85%A6/</guid>
+      <description>在不同電腦間切換(電腦A到電腦B)，但又希望能有相同的執行環境 這時候就會用到這個功能。
+1. 電腦A切換到要轉移的環境 先確認一下虛擬環境名稱 conda env list
+conda activate 要複製的環境 如下圖 2. 將該虛擬環境設定匯出到.yml檔 conda env export &amp;gt; 看你想叫什麼.yml 就會在路徑資料夾中生成了，再把此檔存入新電腦。
+3. 在電腦B建置新環境 conda env create -f 看你想叫什麼.yml 新的名稱
+完成
+###==[補充]==
+本地端複製一份虛擬環境 使用 conda create -n 複製過來的新名稱 --clone 被複製的名稱
+更新電腦的anaconda版本: 執行Anaconda Prompt
+ conda update conda conda update anaconda conda update jupyter
+ REF: How to clone Python working environment on another machine?[ https://datascience.stackexchange.com/questions/24093/how-to-clone-python-working-environment-on-another-machine?fbclid=IwAR0q3Btb2N7V8DhB0h_qL725SlfnTxP7DYG3ckTMrwbljXDVG6QydYU0UlM]</description>
+    </item>
+    
+    <item>
+      <title>建置 Anaconda &#43; VSCode 環境來寫Python</title>
+      <link>https://www.liaojx.com/post/%E5%BB%BA%E7%BD%AE-anaconda-&#43;-vscode-%E7%92%B0%E5%A2%83%E4%BE%86%E5%AF%ABpython/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.liaojx.com/post/%E5%BB%BA%E7%BD%AE-anaconda-&#43;-vscode-%E7%92%B0%E5%A2%83%E4%BE%86%E5%AF%ABpython/</guid>
+      <description>一般寫python有兩種環境建置的方法:1.下載原生的python官方檔案
+ 下載Anaconda 一般大部分的新手或身邊的朋友好像都是用後者，很方便的是容易建置虛擬環境，並且預先整合了許多套件。  1. 至官網下載安裝最新版的Anaconda 打開後如下的畫面，表示安裝成功。 2. 為專案建置虛擬環境、安裝套件 接著我們先來為測試的專案建一個虛擬環境， 這是Anaconda的優勢所在，可以讓我們很容易進行套件的安裝管理。(也可以利用command line的方式來執行，自行參考下方網路教學) 因為每次進行不同的專案可能會利用到各種不同的套件， 這邊建置虛擬環境就是建置一個專屬於該專案的套件環境， 如此不同的專案就可以同時在電腦中使用不同的版本或各自有特定種類的套件。 可以選擇想要的python版本。 上面的選單切成Not installed，順便update index更新最新的套件目錄以供待會查詢。 接著就自行看要裝什麼套件吧!
+也可以按那個綠色箭頭，開啟該環境的cmd.exe 用輸入指令的方式下載 可以在這兩個地方先找找看有沒有你要的套件和版本
+ https://anaconda.org/conda-forge/repo https://pypi.org/ 像這樣指定套件和想要的版本(版本省略就是下載最新的)  1pip install opencv-contrib-python==3.4.2.17 可以用
+1pip list 查看已安裝的套件清單和版本 輸入
+1conda env list 可以查看目前建置的虛擬環境清單 會和在anaconda上一致 接著輸入
+1activate 要切換過去的套件名稱 就會切過去囉 (路徑前面的括號內就是環境名稱)
+到此虛擬環境建置完成。
+ Ref:
+Anaconda環境相關 https://s12121296.wordpress.com/2020/03/29/anaconda%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE-%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%9D-%E7%92%B0%E5%A2%83%E5%82%99%E4%BB%BD-%E7%92%B0%E5%A2%83%E5%BE%A9%E5%8E%9F-%E5%AE%8C%E6%95%B4%E6%95%99%E5%AD%B8-windows/comment-page-1/
+Python環境相關 https://docs.python.org/zh-tw/3/tutorial/venv.html</description>
+    </item>
+    
+  </channel>
+</rss>
